@@ -7,6 +7,7 @@ import { collection, getDocs, query, orderBy, where, getCountFromServer } from "
 import { db } from "@/lib/firebase/init"; 
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import SearchBar from "@/components/SearchBar";
 
 const inter = Inter({ subsets: ["latin"] });
 const merriweather = Merriweather({ weight: ["400", "700"], style: ["normal", "italic"], subsets: ["latin"] });
@@ -131,15 +132,8 @@ export default function PortfolioHome() {
           </p>
         </div>
 
-        <div className="max-w-3xl mx-auto relative mb-20">
-          <input 
-            type="text" 
-            placeholder="Search the archive" 
-            className="w-full bg-white border border-gray-300 rounded-none py-4 px-6 text-lg focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 shadow-sm transition-all placeholder-gray-400"
-          />
-          <button className="absolute right-2 top-2 bg-gray-900 text-white px-6 py-2 uppercase text-xs font-bold tracking-wider hover:bg-gray-800 transition-colors">
-            Search
-          </button>
+        <div className="mb-20">
+          <SearchBar />
         </div>
 
         <hr className="border-gray-300 mb-16" />
