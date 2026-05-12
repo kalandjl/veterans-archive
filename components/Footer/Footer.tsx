@@ -10,7 +10,7 @@ const Footer: FC<Props> = (props) => {
         <>
             {/* Footer */}
             <footer className="border-t border-gray-300 py-8 text-center text-sm text-gray-500">
-                <p>&copy; {new Date().getFullYear()} [Your Name]. Dedicated to those who served. Built with Next.js.</p>
+                <p>&copy; {new Date().getFullYear()}. Dedicated to those who served. Built with Next.js.</p>
             </footer>
         
         </>

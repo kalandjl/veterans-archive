@@ -14,7 +14,9 @@ const Nav: FC<Props> = (props) => {
             {/* Header */}
             <header className="border-b border-gray-300 py-6 px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
                 <div className={`text-xl font-bold tracking-tight uppercase ${merriweather.className}`}>
-                <span className="font-light text-gray-500 lowercase italic">The veterans archive</span>
+                <Link href="/">
+                    <span className="font-light text-gray-500 lowercase italic">The veterans archive</span>
+                </Link>
                 </div>
                 <nav className="space-x-6 text-sm font-medium tracking-wide">
                 <Link href="#index" className="hover:text-gray-500 transition-colors">Browse Index</Link>
