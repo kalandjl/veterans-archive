@@ -19,7 +19,7 @@ const Nav: FC<Props> = (props) => {
                 </Link>
                 </div>
                 <nav className="space-x-6 text-sm font-medium tracking-wide">
-                <Link href="#index" className="hover:text-gray-500 transition-colors">Browse Index</Link>
+                <Link href="/browse" className="hover:text-gray-500 transition-colors">Browse Index</Link>
                 <Link href="#featured" className="hover:text-gray-500 transition-colors">Featured Exhibits</Link>
                 <Link href="/about" className="hover:text-gray-500 transition-colors">About the Project</Link>
                 <Link href="/contact" className="hover:text-gray-500 transition-colors">Contact</Link>

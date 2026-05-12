@@ -143,7 +143,7 @@ export default function PortfolioHome() {
               Browse the Index
             </h2>
             
-            <div className="flex items-center gap-3">
+            {/* <div className="flex items-center gap-3">
               <label htmlFor="format-filter" className="text-sm font-medium uppercase tracking-wider text-gray-500">
                 Filter By Format:
               </label>
@@ -157,7 +157,7 @@ export default function PortfolioHome() {
                 <option value="Oral Histories">Oral Histories</option>
                 <option value="Letters">Letters</option>
               </select>
-            </div>
+            </div> */}
         </div>
 
         <div id="index" className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
